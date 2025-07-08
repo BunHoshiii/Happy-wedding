@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Bắt Đầu</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+
+    .box {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .start-button {
+      padding: 20px 40px;
+      font-size: 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .start-button:hover {
+      background-color: #45a049;
+    }
+
+    .box:nth-child(1) {
+      background-color: #ffe0e0; /* màu cho nhà zai */
+    }
+
+    .box:nth-child(2) {
+      background-color: #e0f7ff; /* màu cho nhà gái */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <button class="start-button" onclick="location.href='Happy/DONGLINH/Groom-family.html'">
+        Bắt Đầu Nhà Zai
+      </button>
+    </div>
+    <div class="box">
+      <button class="start-button" onclick="location.href='Happy/DONGLINH/Bride-family.html'">
+        Bắt Đầu Nhà Gái
+      </button>
+    </div>
+  </div>
+</body>
+</html>
